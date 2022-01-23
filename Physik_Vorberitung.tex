@@ -1,0 +1,72 @@
+\documentclass{scrartcl}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{mathtools}
+\usepackage[ngerman]{babel}
+\usepackage[final]{pdfpages}
+\selectlanguage{german}
+
+\begin{document}
+    \section*{Selbstinduktion}
+        Selbstinduktion hast du immer, wenn du irgendwo eine Spannung induzierst. Die Teilchen erzeugen dadurch, dass Sie sich bewegen eine Spannung gegen die vorher induzierte Spannung.
+    \section*{Hall-Effekt}
+        magnetische Flussdichte kann mit einem Voltmeter gemessen werden
+    \section*{Formel die wichtig sind für LK}
+        \subsection*{Lorentzkraft}
+            \begin{equation}
+                \begin{multlined}
+                    F\textsubscript{L}=B*Q*v
+                \end{multlined}
+            \end{equation}
+        \subsection*{Radialkraft}
+            \begin{equation}
+                \begin{multlined}
+                    F\textsubscript{R}=\frac{mv^2}{r}
+                \end{multlined}
+            \end{equation}
+        \subsection*{Zyklotron}
+            \begin{equation}
+                \begin{multlined}
+                    F\textsubscript{L}=F\textsubscript{R} \\
+                    \text{Nach Geschwindigkeit umstellen, Ansatz von Lorentzkraft} \\
+                    B*Q = \frac{mv}{r} \| * \frac{r}{m} \\
+                    v=\frac{B*Q*r}{m} \\
+                    v=\frac{2\pi*r}{T} \\
+                    \frac{2\pi*r}{T}=\frac{B*Q*r}{m} \| Reziproke bilden \\
+                    \frac{T}{2\pi*r}=\frac{m}{B*Q*r} \| *2\pi*r \\
+                    T=\frac{2\pi*m}{B*Q} \\
+                    f=\frac{B*Q}{2\pi*m} \\
+                    \omega=2\pi*f \\
+                \end{multlined}
+            \end{equation}
+        \subsection*{Aufgabe zum Zyklotron}
+        Geg:
+        \begin{equation}
+            \begin{multlined}
+                U\textsubscript{B} = 1250V \\
+                Lithium-7-ion=4m\textsubscript{n}+3m\textsubscript{p} \\
+                r\textsubscript{$\max$} = 1,3m
+                f=8*10^5 Hz
+            \end{multlined}
+        \end{equation}
+        Ges:
+        \begin{equation}
+            \begin{multlined}
+                T,
+                v\textsubscript{End},
+                v\textsubscript{1},
+                E\textsubscript{ges},
+                E\textsubscript{1},
+                n
+            \end{multlined}
+        \end{equation}
+        Lsg:
+        \begin{equation}
+            \begin{multlined}
+                T = \frac{1}{f} = \frac{1}{8*10^5 Hz} = 1,25 * 10\textsuperscript{-6}s \\
+                v\textsubscript{End} = \frac{2\pi*r\textsubscript{$\max$}}{T} = \frac{2\pi*1,3m}{1,25 * 10\textsuperscript{-6}s} = 6.534.512 \frac{m}{s} \\
+                v=\sqrt{\frac{2*Q*U}{m}} \\
+                v\textsubscript{1}=\sqrt{\frac{2e*1250V}{4m\textsubscript{n}+3m\textsubscript{p}}} = 184.886 \frac{m}{s} \\
+                E\textsubscript{1}= Q*U = 1250 eV = 2*10\textsuperscript{-6} J \\
+            \end{multlined}
+        \end{equation}
+\end{document}
