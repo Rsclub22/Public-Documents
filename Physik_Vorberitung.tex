@@ -38,7 +38,7 @@
                     \omega=2\pi*f \\
                 \end{multlined}
             \end{equation}
-        \subsection*{Aufgabe zum Zyklotron}
+        \subsubsection*{Aufgabe zum Zyklotron}
         Geg:
         \begin{equation}
             \begin{multlined}
@@ -66,7 +66,39 @@
                 v\textsubscript{End} = \frac{2\pi*r\textsubscript{$\max$}}{T} = \frac{2\pi*1,3m}{1,25 * 10\textsuperscript{-6}s} = 6.534.512 \frac{m}{s} \\
                 v=\sqrt{\frac{2*Q*U}{m}} \\
                 v\textsubscript{1}=\sqrt{\frac{2e*1250V}{4m\textsubscript{n}+3m\textsubscript{p}}} = 184.886 \frac{m}{s} \\
+                Q*U=E\textsubscript{kin}=\frac{mv^2}{2} \\
                 E\textsubscript{1}= Q*U = 1250 eV = 2*10\textsuperscript{-6} J \\
+                E\textsubscript{ges} =\frac{mv\textsubscript{End}^2}{2} = 2,502*10\textsuperscript{-13}J \\
+                E\textsubscript{ges} = 2n* E\textsubscript{1} \|*\frac{1}{2*E\textsubscript{1}} \\
+                n=\frac{E\textsubscript{ges}}{2*E\textsubscript{1}}=624 \\
+            \end{multlined}
+        \end{equation}
+        \subsection*{Magnetische Flussdichte}
+        \begin{equation}
+            \begin{multlined}
+                B = \mu\textsubscript{0}*\mu\textsubscript{r}*\frac{NI}{l} 
+            \end{multlined}
+        \end{equation}
+        \subsection*{Die elektromagnetische Induktion}
+        \subsubsection*{Induktionsspule in felderzeugender Spule}
+        \begin{equation}
+            \begin{multlined}
+                U\textsubscript{i} = -N*A*\frac{dB}{dt} \text{ bzw. } 
+                U\textsubscript{i} = -N*A*\frac{\delta B}{\delta t} \\
+                U\textsubscript{i} = -N\textsubscript{1}*A\textsubscript{1}*\frac{\delta(\mu\textsubscript{0}\mu\textsubscript{r}*\frac{N\textsubscript{2}*I}{l\textsubscript{2}})}{\delta t} \\
+                U\textsubscript{i} = \frac{-N\textsubscript{1}*A\textsubscript{1}*\mu\textsubscript{0}\mu\textsubscript{r}*N\textsubscript{2}}{l\textsubscript{2}}*\frac{\delta I}{\delta t} \\
+            \end{multlined}
+        \end{equation}
+        N\textsubscript{1} = Windungszahl der Induktionsspule \\
+        A\textsubscript{1} = Fläche der Induktionsspule \\
+        N\textsubscript{2} = Windungszahl der felderzeugenden Spule \\
+        l\textsubscript{2} = Länge der felderzeugenden Spule \\
+        \subsubsection*{1. Induktionsgesetz}
+        \begin{equation}
+            \begin{multlined}
+                U\textsubscript{i} = -N\frac{d\phi}{dt}, \phi =BA \\
+                U\textsubscript{i} = -N\frac{d(BA)}{dt}
+                u\textsubscript{i} = -NB\frac{dA}{dt}
             \end{multlined}
         \end{equation}
 \end{document}
